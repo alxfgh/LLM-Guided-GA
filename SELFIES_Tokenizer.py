@@ -1,6 +1,6 @@
 import json
 
-class SELFIESEncoder:
+class SELFIESTokenizer:
     def __init__(self, json_file):
         with open(json_file, 'r') as file:
             self.mapping = json.load(file)
