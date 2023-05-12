@@ -1,5 +1,6 @@
 import json
 
+
 class SELFIESTokenizer:
     def __init__(self, json_file):
         with open(json_file, 'r') as file:
@@ -20,7 +21,8 @@ class SELFIESTokenizer:
                     found = True
                     break
             if not found:
-                raise ValueError(f"Token not found in the dictionary: {input_string[cursor:]}")
+                raise ValueError(
+                    f"Token not found in the dictionary: {input_string[cursor:]}")
         return encoded_list
 
     def decode(self, encoded_list):
@@ -29,9 +31,11 @@ class SELFIESTokenizer:
             decoded_string += self.inverse_mapping[num]
         return decoded_string
 
+
 # Usage
-encoder = ChemEncoder('SELFIES_Tokens.json')
-encoded = encoder.encode('[SeH0R1][C][C][=N][N][=C][Branch2][Ring1][#Branch1][S][C][Branch1][C][C][C][Br][=Branch1][C][=O][N][C][=C][C][Branch1][C][Cl][=C][C][=C][Ring1][#Branch1][Cl][N][Ring2][Ring1][Ring1][N]')
-print("Encoded:", encoded)
-decoded = encoder.decode(encoded)
-print("Decoded:", decoded)
+# encoder = SELFIESTokenizer('SELFIES_Tokens_Plus.json')
+# encoded = encoder.encode(
+#     '[SeH0R1][:0chiral][C][C][=N][N][=C][Branch2][Ring1][#Branch1][S][C][Branch1][C][C][C][Br][=Branch1][C][=O][N][C][=C][C][Branch1][C][Cl][=C][C][=C][Ring1][#Branch1][Cl][N][Ring2][Ring1][Ring1][N]')
+# print("Encoded:", encoded)
+# decoded = encoder.decode(encoded)
+# print("Decoded:", decoded)
