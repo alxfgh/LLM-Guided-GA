@@ -40,9 +40,9 @@ class Tokenizer:
 
 
 # Usage
-encoder = Tokenizer()
-encoded = encoder.encode(
-    '[SeH0R1][:0chiral][C][C][=N][N][=C][Branch2][Ring1][#Branch1][S][C][Branch1][C][C][C][Br][=Branch1][C][=O][N][C][=C][C][Branch1][C][Cl][=C][C][=C][Ring1][#Branch1][Cl][N][Ring2][Ring1][Ring1][N]')
-print("Encoded:", encoded)
-decoded = encoder.decode(encoded)
-print("Decoded:", decoded)
+# encoder = Tokenizer()
+# encoded = encoder.encode(
+#     '[SeH0R1][:0chiral][C][C][=N][N][=C][Branch2][Ring1][#Branch1][S][C][Branch1][C][C][C][Br][=Branch1][C][=O][N][C][=C][C][Branch1][C][Cl][=C][C][=C][Ring1][#Branch1][Cl][N][Ring2][Ring1][Ring1][N]')
+# print("Encoded:", encoded)
+# decoded = encoder.decode(encoded)
+# print("Decoded:", decoded)
