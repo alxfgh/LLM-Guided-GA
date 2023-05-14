@@ -1,0 +1,29 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: transformers in /home/alxfgh/.local/lib/python3.10/site-packages (4.30.0.dev0)
+Collecting pytorch
+  Downloading pytorch-1.0.2.tar.gz (689 bytes)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: tokenizers in /home/alxfgh/.local/lib/python3.10/site-packages (0.13.3)
+Requirement already satisfied: filelock in /usr/lib/python3/dist-packages (from transformers) (3.6.0)
+Requirement already satisfied: numpy>=1.17 in /usr/lib/python3/dist-packages (from transformers) (1.21.5)
+Requirement already satisfied: requests in /home/alxfgh/.local/lib/python3.10/site-packages (from transformers) (2.30.0)
+Requirement already satisfied: tqdm>=4.27 in /home/alxfgh/.local/lib/python3.10/site-packages (from transformers) (4.65.0)
+Requirement already satisfied: huggingface-hub<1.0,>=0.14.1 in /home/alxfgh/.local/lib/python3.10/site-packages (from transformers) (0.14.1)
+Requirement already satisfied: pyyaml>=5.1 in /usr/lib/python3/dist-packages (from transformers) (5.4.1)
+Requirement already satisfied: regex!=2019.12.17 in /home/alxfgh/.local/lib/python3.10/site-packages (from transformers) (2023.5.5)
+Requirement already satisfied: packaging>=20.0 in /usr/lib/python3/dist-packages (from transformers) (21.3)
+Requirement already satisfied: fsspec in /home/alxfgh/.local/lib/python3.10/site-packages (from huggingface-hub<1.0,>=0.14.1->transformers) (2023.5.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/lib/python3/dist-packages (from huggingface-hub<1.0,>=0.14.1->transformers) (3.10.0.2)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/lib/python3/dist-packages (from requests->transformers) (2020.6.20)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/alxfgh/.local/lib/python3.10/site-packages (from requests->transformers) (1.26.15)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/alxfgh/.local/lib/python3.10/site-packages (from requests->transformers) (3.1.0)
+Requirement already satisfied: idna<4,>=2.5 in /usr/lib/python3/dist-packages (from requests->transformers) (3.3)
+Building wheels for collected packages: pytorch
+  Building wheel for pytorch (setup.py): started
+  Building wheel for pytorch (setup.py): finished with status 'error'
+  Running setup.py clean for pytorch
+Failed to build pytorch
+Installing collected packages: pytorch
+  Running setup.py install for pytorch: started
+  Running setup.py install for pytorch: finished with status 'error'

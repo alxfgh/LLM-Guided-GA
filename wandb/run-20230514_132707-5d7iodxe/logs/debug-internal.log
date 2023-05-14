@@ -1,0 +1,96 @@
+2023-05-14 13:27:07,894 INFO    StreamThr :63761 [internal.py:wandb_internal():86] W&B internal server running at pid: 63761, started at: 2023-05-14 13:27:07.894397
+2023-05-14 13:27:07,896 DEBUG   HandlerThread:63761 [handler.py:handle_request():144] handle_request: status
+2023-05-14 13:27:07,912 INFO    WriterThread:63761 [datastore.py:open_for_write():85] open: /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/run-5d7iodxe.wandb
+2023-05-14 13:27:07,912 DEBUG   SenderThread:63761 [sender.py:send():375] send: header
+2023-05-14 13:27:07,920 DEBUG   SenderThread:63761 [sender.py:send():375] send: run
+2023-05-14 13:27:08,255 DEBUG   HandlerThread:63761 [handler.py:handle_request():144] handle_request: check_version
+2023-05-14 13:27:08,260 INFO    SenderThread:63761 [dir_watcher.py:__init__():219] watching files in: /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/files
+2023-05-14 13:27:08,260 INFO    SenderThread:63761 [sender.py:_start_run_threads():1124] run started: 5d7iodxe with start time 1684085227.893132
+2023-05-14 13:27:08,260 DEBUG   SenderThread:63761 [sender.py:send_request():402] send_request: summary_record
+2023-05-14 13:27:08,260 INFO    SenderThread:63761 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-14 13:27:08,261 DEBUG   SenderThread:63761 [sender.py:send_request():402] send_request: check_version
+2023-05-14 13:27:08,411 DEBUG   HandlerThread:63761 [handler.py:handle_request():144] handle_request: run_start
+2023-05-14 13:27:08,422 DEBUG   HandlerThread:63761 [system_info.py:__init__():31] System info init
+2023-05-14 13:27:08,423 DEBUG   HandlerThread:63761 [system_info.py:__init__():46] System info init done
+2023-05-14 13:27:08,423 INFO    HandlerThread:63761 [system_monitor.py:start():181] Starting system monitor
+2023-05-14 13:27:08,423 INFO    SystemMonitor:63761 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-14 13:27:08,423 INFO    HandlerThread:63761 [system_monitor.py:probe():201] Collecting system info
+2023-05-14 13:27:08,424 INFO    SystemMonitor:63761 [interfaces.py:start():190] Started cpu monitoring
+2023-05-14 13:27:08,425 INFO    SystemMonitor:63761 [interfaces.py:start():190] Started disk monitoring
+2023-05-14 13:27:08,426 INFO    SystemMonitor:63761 [interfaces.py:start():190] Started gpu monitoring
+2023-05-14 13:27:08,426 INFO    SystemMonitor:63761 [interfaces.py:start():190] Started memory monitoring
+2023-05-14 13:27:08,427 INFO    SystemMonitor:63761 [interfaces.py:start():190] Started network monitoring
+2023-05-14 13:27:08,441 DEBUG   HandlerThread:63761 [system_info.py:probe():195] Probing system
+2023-05-14 13:27:08,444 DEBUG   HandlerThread:63761 [system_info.py:_probe_git():180] Probing git
+2023-05-14 13:27:08,452 DEBUG   HandlerThread:63761 [system_info.py:_probe_git():188] Probing git done
+2023-05-14 13:27:08,452 DEBUG   HandlerThread:63761 [system_info.py:probe():240] Probing system done
+2023-05-14 13:27:08,452 DEBUG   HandlerThread:63761 [system_monitor.py:probe():210] {'os': 'Linux-5.19.0-35-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-05-14T17:27:08.441245', 'startedAt': '2023-05-14T17:27:07.882412', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'distilROBERTa-jvsc-0c776031-eee6-4c3d-8664-6a70b9a57dd661ccd379-a65d-4e2a-8a78-248d0dac9ab9.ipynb', 'root': '/home/alxfgh/Coding Projects/LLM-Guided-GA', 'git': {'remote': 'https://github.com/alxfgh/LLM-Guided-GA.git', 'commit': '5acf197b04320565e8c01ffe7371b4f9ea32d0f2'}, 'email': 'alexander.al-feghali@mail.mcgill.ca', 'host': 'lex', 'username': 'alxfgh', 'executable': '/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 1.6001666666666665, 'min': 1550.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 1.549, 'min': 1550.0, 'max': 3400.0}, {'current': 1.549, 'min': 1550.0, 'max': 3400.0}, {'current': 1.549, 'min': 1550.0, 'max': 3400.0}, {'current': 2.847, 'min': 1550.0, 'max': 3400.0}, {'current': 1.294, 'min': 1550.0, 'max': 3400.0}, {'current': 1.324, 'min': 1550.0, 'max': 3400.0}, {'current': 1.549, 'min': 1550.0, 'max': 3400.0}, {'current': 1.548, 'min': 1550.0, 'max': 3400.0}, {'current': 1.549, 'min': 1550.0, 'max': 3400.0}, {'current': 2.817, 'min': 1550.0, 'max': 3400.0}, {'current': 1.274, 'min': 1550.0, 'max': 3400.0}, {'current': 1.316, 'min': 1550.0, 'max': 3400.0}], 'disk': {'total': 915.3232879638672, 'used': 74.3327865600586}, 'gpu': 'NVIDIA GeForce GTX 1070 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1070 Ti', 'memory_total': 8589934592}], 'memory': {'total': 46.97258377075195}}
+2023-05-14 13:27:08,452 INFO    HandlerThread:63761 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-14 13:27:08,452 INFO    HandlerThread:63761 [system_monitor.py:probe():214] Publishing system info
+2023-05-14 13:27:08,452 DEBUG   HandlerThread:63761 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-14 13:27:08,453 DEBUG   HandlerThread:63761 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-14 13:27:08,453 INFO    HandlerThread:63761 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-14 13:27:09,255 INFO    WriterThread:63761 [datastore.py:close():298] close: /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/run-5d7iodxe.wandb
+2023-05-14 13:27:09,263 INFO    Thread-12 :63761 [dir_watcher.py:_on_file_created():278] file/dir created: /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/files/wandb-summary.json
+2023-05-14 13:27:09,263 INFO    Thread-12 :63761 [dir_watcher.py:_on_file_created():278] file/dir created: /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/files/requirements.txt
+2023-05-14 13:27:09,263 INFO    Thread-12 :63761 [dir_watcher.py:_on_file_created():278] file/dir created: /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/files/wandb-metadata.json
+2023-05-14 13:27:09,405 INFO    SenderThread:63761 [sender.py:finish():1550] shutting down sender
+2023-05-14 13:27:09,405 INFO    SenderThread:63761 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-14 13:27:10,264 INFO    SenderThread:63761 [dir_watcher.py:finish():395] scan: /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/files
+2023-05-14 13:27:10,264 INFO    SenderThread:63761 [dir_watcher.py:finish():409] scan save: /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/files/config.yaml config.yaml
+2023-05-14 13:27:10,265 INFO    SenderThread:63761 [dir_watcher.py:finish():409] scan save: /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/files/wandb-summary.json wandb-summary.json
+2023-05-14 13:27:10,265 INFO    SenderThread:63761 [dir_watcher.py:finish():409] scan save: /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/files/requirements.txt requirements.txt
+2023-05-14 13:27:10,268 INFO    SenderThread:63761 [dir_watcher.py:finish():409] scan save: /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/files/wandb-metadata.json wandb-metadata.json
+2023-05-14 13:27:10,278 INFO    SenderThread:63761 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-14 13:27:10,278 INFO    SenderThread:63761 [file_pusher.py:join():172] waiting for file pusher
+2023-05-14 13:27:11,135 INFO    wandb-upload_0:63761 [upload_job.py:push():137] Uploaded file /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/files/config.yaml
+2023-05-14 13:27:11,394 INFO    wandb-upload_2:63761 [upload_job.py:push():137] Uploaded file /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/files/requirements.txt
+2023-05-14 13:27:11,399 INFO    wandb-upload_3:63761 [upload_job.py:push():137] Uploaded file /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/files/wandb-metadata.json
+2023-05-14 13:27:11,422 INFO    wandb-upload_1:63761 [upload_job.py:push():137] Uploaded file /home/alxfgh/Coding Projects/LLM-Guided-GA/wandb/run-20230514_132707-5d7iodxe/files/wandb-summary.json
+2023-05-14 13:27:12,143 ERROR   StreamThr :63761 [internal.py:wandb_internal():174] Thread HandlerThread:
+Traceback (most recent call last):
+  File "/home/alxfgh/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/home/alxfgh/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal_util.py", line 100, in _run
+    self._process(record)
+  File "/home/alxfgh/.local/lib/python3.10/site-packages/wandb/sdk/internal/internal.py", line 279, in _process
+    self._hm.handle(record)
+  File "/home/alxfgh/.local/lib/python3.10/site-packages/wandb/sdk/internal/handler.py", line 136, in handle
+    handler(record)
+  File "/home/alxfgh/.local/lib/python3.10/site-packages/wandb/sdk/internal/handler.py", line 146, in handle_request
+    handler(record)
+  File "/home/alxfgh/.local/lib/python3.10/site-packages/wandb/sdk/internal/handler.py", line 699, in handle_request_run_start
+    self._tb_watcher = tb_watcher.TBWatcher(
+  File "/home/alxfgh/.local/lib/python3.10/site-packages/wandb/sdk/internal/tb_watcher.py", line 118, in __init__
+    wandb.tensorboard.reset_state()
+  File "/home/alxfgh/.local/lib/python3.10/site-packages/wandb/sdk/lib/lazyloader.py", line 58, in __getattr__
+    module = self._load()
+  File "/home/alxfgh/.local/lib/python3.10/site-packages/wandb/sdk/lib/lazyloader.py", line 33, in _load
+    module = importlib.import_module(self.__name__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/alxfgh/.local/lib/python3.10/site-packages/wandb/integration/tensorboard/__init__.py", line 3, in <module>
+    from .log import _log, log, reset_state, tf_summary_to_dict  # noqa: F401
+  File "/home/alxfgh/.local/lib/python3.10/site-packages/wandb/integration/tensorboard/log.py", line 35, in <module>
+    Summary = pb.Summary if pb else None
+  File "/usr/lib/python3.10/importlib/util.py", line 247, in __getattribute__
+    self.__spec__.loader.exec_module(self)
+  File "/usr/lib/python3/dist-packages/tensorboard/compat/proto/summary_pb2.py", line 15, in <module>
+    from tensorboard.compat.proto import histogram_pb2 as tensorboard_dot_compat_dot_proto_dot_histogram__pb2
+  File "/usr/lib/python3/dist-packages/tensorboard/compat/proto/histogram_pb2.py", line 34, in <module>
+    _descriptor.FieldDescriptor(
+  File "/home/alxfgh/.local/lib/python3.10/site-packages/google/protobuf/descriptor.py", line 561, in __new__
+    _message.Message._CheckCalledFromGeneratedFile()
+TypeError: Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates

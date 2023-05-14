@@ -1,4 +1,5 @@
-*.csv
+# Ignore everything in this directory
+.csv
 *.txt
 *.json
 *test*
